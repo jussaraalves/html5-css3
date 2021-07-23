@@ -1,1 +1,0 @@
-Exercícios e pequenos desafios que desenvolvi no c  urso atual de HTML5 e CSS3. 
