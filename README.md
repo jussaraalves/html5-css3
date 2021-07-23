@@ -1,1 +1,1 @@
-Atividades e pequenos desafios que desenvolvi no curso de HTML5 e CSS3
+Atividades e pequenos desafios que desenvolvi no primeiro módulo do curso HTML5 e CSS3
