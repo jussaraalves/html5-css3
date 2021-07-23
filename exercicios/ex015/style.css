@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Regra @charset caso haja problemas com acentuaçao*/
+
+body{
+    background-color: lightpink;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: deeppink;
+    background-color: pink;
+}
+h2{
+    color: darkviolet;
+}
+p{
+    text-align: justify;
+}
