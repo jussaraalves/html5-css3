@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgba(102,102,102);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin-right: 10px;     
+
+        }
+        nav a:hover{
+            text-decoration: underline;
+            color: navy;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px ;
+            box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.349);
+        }
+        main > section{
+            padding: 5px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            
+        }
+
+        article > aside{
+            background-color: darkgray;
+
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 4px; 
+            text-align: center; 
+            margin: 0px;   
+
+        }
+        
+        footer > h4{
+            padding: 4px;
+        }
+        footer > h4,p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site </h1>
+        <nav>
+            <a href="#">Link-Exemplo</a>
+            <a href="#">Link-Exemplo</a>
+            <a href="#">Link-Exemplo</a>
+            <a href="#">Link-Exemplo</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Noticias Tecnologia Blog</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                   <h2>5G no Brasil: o que muda com a nova tecnologia e quando será implementada</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, eligendi. Adipisci dolore repudiandae illo veritatis porro natus. Asperiores et eum quasi sit delectus soluta placeat hic ad? Laudantium, doloremque voluptate.</p>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quo repudiandae eius fugiat ab dolor? Consectetur dignissimos in, dicta perspiciatis facere quasi eos labore pariatur aliquid iste repudiandae, amet nulla.</p>
+                
+            </article>
+            <article>
+                <h2>Tecnologia 5G chegará a capitais brasileiras ‘neste Natal’, diz Comunicações</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis distinctio inventore nihil ex qui eos soluta voluptatum iusto. Quasi blanditiis molestiae voluptatum fugit! Repudiandae quod totam inventore aliquid cumque non?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius culpa similique molestiae sit aspernatur fuga ratione deleniti in praesentium. Vel excepturi voluptatibus commodi, ullam nisi sequi quo quisquam eaque atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ullam suscipit, nisi magnam optio recusandae, tenetur harum, officiis corporis asperiores corrupti sit. Quo eveniet beatae aliquid laudantium maxime odio quibusdam.</p>
+                <aside>
+                    <p>Artigo escrito Por Lívia Maria 16/08/2021 15h15 - Atualizado em 16/08/2021 15h16 </p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <section id="categoria">
+        <footer>
+            <h4>Categorias</h4>
+                <p>Calendários  Novas Séries Netflix Spoilers Amazon Prime Vídeo</p>
+        </footer>
+    </section>
+</body>
+</html>

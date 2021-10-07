@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import url();
+body{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h1{
+    /*font-family: 'Work Sans', sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+    */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}
+
+h2{
+    font: bold 2em 'Work Sans';
+}
