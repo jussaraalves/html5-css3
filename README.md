@@ -1,1 +1,1 @@
-Atividades e pequenos desafios que desenvolvi no primeiro módulo do curso HTML5 e CSS3
+Atividades desenvolvidas com base no curso em vídeo ministrado por Gustavo Guanabara utilizando as tecnologias HTML5 e CSS3.
