@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto+Condensed:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+:root{
+    --cor1 : #353030;
+    --cor2 : #000000;
+    --cor3 : #FFF6ED;
+    --cor4 : #FCCBBC;
+    
+    
+    --fonte-titulo: 'Libre Baskerville', serif;
+    --fonte-principal: 'Libre Baskerville', serif;
+}
+
+html,body{
+    min-height: 100vh;
+    background-color: grey;
+    font-family: var(--fonte-principal);
+    
+}
+
+header{
+    color: var(--cor3);
+    text-align: center;
+    background-color: var(--cor1);  
+ 
+}
+
+header > h1{
+    font-family: var(--fonte-titulo);
+    font-size: 3.2em;
+    font-variant: small-caps;
+    
+    padding-top: 50px ;
+    padding-bottom: 10px;
+}
+
+header p{   
+    font-size: 1.3em;
+    padding-bottom: 50px ;
+}
+
+header a, footer a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 1.7em;
+}
+
+section.normal{
+    color: var(--cor2);
+    background-color: var(--cor3);
+}
+
+section.imagem{
+    color: var(--cor3);
+    background-color: var(--cor1);
+}
+
+section.imagem p{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+footer{
+    color: var(--cor3);
+    background-color: var(--cor1);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
