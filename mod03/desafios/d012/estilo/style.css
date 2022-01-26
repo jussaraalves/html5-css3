@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto+Condensed:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto+Condensed:ital@1&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 :root{
     --cor1 : #353030;
     --cor2 : #000000;
     --cor3 : #FFF6ED;
-    --cor4 : #FCCBBC;
     
-    
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif; 
     --fonte-titulo: 'Libre Baskerville', serif;
     --fonte-principal: 'Libre Baskerville', serif;
 }
@@ -23,8 +23,7 @@
 html,body{
     min-height: 100vh;
     background-color: grey;
-    font-family: var(--fonte-principal);
-    
+      
 }
 
 header{
@@ -41,6 +40,8 @@ header > h1{
     
     padding-top: 50px ;
     padding-bottom: 10px;
+ 
+    font-size: 7vw;
 }
 
 header p{   
@@ -64,6 +65,7 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 1.7em;
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -74,11 +76,42 @@ section.normal{
 section.imagem{
     color: var(--cor3);
     background-color: var(--cor1);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+
 section.imagem p{
-    width: 300px;
-    background-color: rgba(0, 0, 0, 0.219);
+    width: 50vw;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.37);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.658);
+}
+
+section#pimg1{
+    background-image: url('../imagens/pimg1.jpeg');
+    background-position: center;
+    
+}
+
+section#pimg2{
+    background-image: url('../imagens/pimg2.jpeg');
+    background-position: center;   
+
+}
+
+section#pimg3{
+    background-image: url('../imagens/pimg3.jpeg');
+    background-position: center;
+    
+}
+
+section#pimg4{
+    background-image: url('../imagens/pimg4.jpeg');
+    background-position: bottom center;
+   
 }
 
 footer{
