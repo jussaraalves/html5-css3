@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Astronauta</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        #container {
+            position: relative;
+            height: 100vh;
+            background-color: gray;
+            background-image: url(imagens/espaco.jpg);
+    
+            background-size: cover;
+        }
+        #content{
+            position: absolute;
+            width: 500px; 
+            height: 500px;
+            background-image: url(imagens/astronauta.png);
+    
+            background-repeat: no-repeat;
+            left: 50%;
+            top: 50%;
+    
+            transform: translate(-50%, -50%);  
+        }
+    </style>
 </head>
-<style>
-    *{
-        margin: 0;
-    }
-    #container {
-        position: relative;
-        height: 100vh;
-        background-color: gray;
-        background-image: url(imagens/espaco.jpg);
-
-        background-size: cover;
-    }
-    #content{
-        position: absolute;
-        width: 500px; 
-        height: 500px;
-        background-image: url(imagens/astronauta.png);
-
-        background-repeat: no-repeat;
-        left: 50%;
-        top: 50%;
-
-        transform: translate(-50%, -50%);  
-    }
-</style>
 <body>
    <div id="container">
        <div id="content"></div>
