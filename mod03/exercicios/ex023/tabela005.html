@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption{
+            background-color: antiquewhite;
+            padding: 5px;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+
+        }
+
+        th, td{
+            border: .5px solid black;
+            padding: 5px;
+        }
+
+        col#cnome{
+            background-color: rgb(159, 157, 170);
+        }
+
+        col#csexo{
+            background-color: bisque;
+        }
+
+        col#cprof{
+            background-color: rgb(159, 157, 170);
+        }
+    </style>
+</head>
+<body>
+    <h1>Agrupando Colunas com colgroup</h1>
+
+    <table>
+
+        <colgroup>
+            <col id="cnome">
+            <col id="csexo" span="2">
+            <!-- <col id="cidade">  -->
+            <col id="cprof">
+        </colgroup>
+
+        <caption>
+            Cadastro
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissao</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Medica</td>
+            </tr>
+
+            <tr>
+                <td>Gustavo Henrique</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Odonto</td>
+            </tr>
+
+            <tr>
+                <td>Lucas Matheus</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Juiz</td>
+            </tr>
+
+            <tr>
+                <td>Maria Julia</td>
+                <td>F</td>
+                <td>26</td>
+                <td>Professora</td>
+            </tr>
+
+            <tr>
+                <td>Carla Roberta</td>
+                <td>F</td>
+                <td>24</td>
+                <td>Advogada</td>
+            </tr>
+
+            <tr>
+                <td>Douglas Pedro</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Engenheiro</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
