@@ -6,8 +6,7 @@ Estou em transição de mudança de área e estou me inserindo na área de tecno
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML5](https://www.w3.org/html/)
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
-- [JS](https://www.javascript.com/) - em breve :)
-
+- [JS](https://www.javascript.com/)
 ## 🚀 Como executar
 
 Clone o projeto e acesse a pasta do mesmo.
